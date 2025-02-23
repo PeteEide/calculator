@@ -1,7 +1,7 @@
 import streamlit as st
 
 def total_area():
-    st.image("logo1.png", use_column_width=True)
+    st.image("logo1.png", use_container_width=True)
     st.title("Total Area Calculator")
     
     num_squares = st.number_input("Enter the number of squares:", min_value=1, step=1, format="%d")
