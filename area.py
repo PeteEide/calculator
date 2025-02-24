@@ -2,8 +2,8 @@ import streamlit as st
 
 # Set custom favicon (icon for phone and browser tab)
 st.set_page_config(
-    page_title="Area Calculator",
-    page_icon="https://raw.githubusercontent.com/PeteEide/calculator/refs/heads/main/logo2.ico",
+    page_title="Area Calculator",  # Title shown in browser tab
+    page_icon="logo2.ico",  # Custom favicon for phone
     layout="centered"
 )
 
